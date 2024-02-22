@@ -1,0 +1,71 @@
+/* 
+  Style your elements by creating CSS classes here.
+  Below, you can see an example of a class called "menu" that changes the color of the text to blue. Modify according to your needs.
+*/
+
+.menu {
+  margin-left: 5%;
+}
+h1 {
+  color: red;
+}
+.top-rows {
+  text-align: center;
+  padding: 5px;
+  font-size: 40px;
+}
+
+.img-container {
+  max-width: 30%;
+  align-items: left;
+  margin-left: 10%;
+}
+
+.image {
+  max-width: 70%;
+  border-radius: 10%;
+  border-color: black;
+}
+
+.food-container {
+  color: black;
+  text-align: left;
+
+}
+
+.food-description {
+  color:gray;
+  font-size: 100%;
+}
+
+.price {
+  font-size: 100%;
+}
+
+.button {
+  border-radius: 30%;
+  color: red;
+}
+
+.row {
+  padding-top: 5%;
+}
+
+.logo {
+  width: 80%;
+  align-items: center;
+  align-content: center;
+}
+
+.headline {
+  text-align: center;
+  color: brown;
+  font-size: larger;
+  margin-top: 3%;
+}
+
+@media (max-width: 767px) {
+  .col-xs-12 {
+    width: 100%;
+  }
+}
