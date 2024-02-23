@@ -43,8 +43,7 @@ h1 {
 }
 
 .button {
-  border-radius: 30%;
-  color: red;
+  border-radius: 100%;
 }
 
 .row {
